@@ -1,0 +1,47 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="#ffffcc">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:background="#CCCCCC"
+        android:textColor="#000000"
+        android:id="@+id/partitaDelGiorno"/>
+
+
+
+    <Spinner
+        android:id="@+id/risultati"
+        android:entries="@array/ris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:background="#CCCCCC"
+        android:textColor="#000000"
+        android:id="@+id/partitaScelta"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="insert"
+        android:text="Inserisci"/>
+
+</LinearLayout>

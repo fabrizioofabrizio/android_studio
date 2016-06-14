@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">VideoGame</string>
+
+    <string-array name = "ris">
+        <item>0-0</item>
+        <item>0-1</item>
+        <item>0-2</item>
+        <item>0-3</item>
+        <item>0-4</item>
+    </string-array>
+</resources>
